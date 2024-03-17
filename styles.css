@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: azure;
+  color: #45a049;
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+::placeholder {
+  color: green;
+}
+
+input[type="number"],
+button {
+  color: #4caf50;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  color: #4caf50;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
